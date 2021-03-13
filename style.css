@@ -1,4 +1,49 @@
-body {background-color:tan;}
-h1{color:green;}
+html{
+    background-color: #000;
+    font-family: verdana;
+}
+body{
+    
+}
+.maindiv{
+    width: 40vw;
+    background-color: white;
+    border-radius: 25px;
+    margin: auto;
+}
+h1{
+    margin-top: 5%;
+    font-size: 36px;
+    text-align: center;
+    color: grey;
+}
+#caclulatorForm{
+    letter-spacing: -1px;
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    text-align: left;
+}
+select{
+    margin-left: 21%;
+}
+input{
+    float: right;
+}
+#rangeValue{
+    text-align: right;
+    float: right;
+}
+#resultReturned{
+    display: none;
+}
+#copyrightSign{
+    font-size: 22px
+}
+#copyright{
+    margin: 15px;
+}
 
-
+#deposit, #rateUsed, #receive, #year{
+    background-color: yellow;
+}
